@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+:root {
+  --primary-color: #7c3aed;
+  --dark-gray: #6b7280;
+  --off-white: #f3f4f6;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.container-center {
+  max-width: 600px;
+  margin: auto;
+}
+
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 1rem;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.navigation {
+  background-color: var(--off-white);
+  color: var(--primary-color);
+  padding: 1rem;
+}
+
+.navigation .nav-brand {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.navigation .link {
+  color: var(--primary-color);
+}
+
+.navigation .link-active {
+  font-weight: bold;
+}
+
+.navigation .nav-pills {
+  text-align: right;
+}
+
+.hero {
+  padding: 2rem;
+}
+
+.hero .hero-img {
+  max-width: 350px;
+  margin: auto;
+  display: block;
+}
+
+.hero .hero-heading {
+  text-align: center;
+  color: var(--dark-gray);
+  margin-bottom: 5px;
+}
+
+.hero .hero-subheading {
+  text-align: center;
+  color: var(--primary-color);
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.hero .hero-heading .heading-inverted {
+  color: var(--primary-color);
+}
+
+.section {
+  padding: 1rem;
+  text-align: center;
+}
+
+.ow {
+  background-color: var(--off-white);
+}
+
+.footer {
+  /* margin-top: 1rem; */
+  background-color: var(--primary-color);
+  padding: 2rem 1rem 1rem 1rem;
+  color: white;
+  text-align: center;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
+}
+
+.footer li {
+  padding-top: 1rem;
+}
+
+.footer .link {
+  color: white;
+}
+
+.footer .footer-header {
+  font-weight: bold;
+  font-size: large;
+}
+
+.footer .social-icon {
+  width: 1rem;
+  padding-right: 0.5rem;
+  vertical-align: baseline;
+}
+
+.footer .social-icon.github {
+  width: 1.1rem;
+  fill: white;
+}
+
+.link-primary {
+  color: var(--primary-color);
+}
+
+.link-primary:hover {
+  font-weight: bold;
+}
+
+.link-secondary {
+  color: var(--dark-gray);
+}
+
+.link-secondary:hover {
+  font-weight: bold;
+}
