@@ -40,6 +40,8 @@ body {
   background-color: var(--off-white);
   color: var(--primary-color);
   padding: 1rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
 }
 
 .navigation .nav-brand {
@@ -101,6 +103,8 @@ body {
   padding: 2rem 1rem 1rem 1rem;
   color: white;
   text-align: center;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
 }
 
 .footer ul {
