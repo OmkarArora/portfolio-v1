@@ -1,0 +1,38 @@
+.blog-page-heading {
+  margin-bottom: 10px;
+}
+
+.blog-hero-img {
+  /* max-width: 400px; */
+  margin: auto;
+  display: block;
+}
+
+.blog-docs-link {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.code-block {
+  font-family: "Courier New", Courier, monospace;
+  padding: 1rem;
+  background-color: var(--off-white);
+}
+
+.italic-text {
+  font-style: italic;
+}
+
+.blog-section li {
+  margin-bottom: 10px;
+  letter-spacing: 0.3px;
+}
+
+.blog-content,
+.blog-section {
+  letter-spacing: 0.3px;
+}

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blogs | omkar arora</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="blog-page.css">
+</head>
+
+<body>
+    <nav class="navigation container">
+        <div class="nav-brand">Omkar Arora</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a href="/" class="link">home</a>
+            </li>
+            <li class="list-item-inline">
+                <a href="/projects.html" class="link ">projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link link-active" href="/blogs.html">blogs</a>
+            </li>
+        </ul>
+    </nav>
+
+    <h1 class="blog-page-heading">The HTML &lt;meta&gt; tag</h1>
+    <small>Omkar Arora | 24 Nov 2020 | 3 min read</small>
+
+    <p class="blog-content">
+        The &lt;meta&gt; tag is used to define the metadata about the HTML document. Metadata is data or information
+        about the data. The &lt;meta&gt; tag is written inside the &lt;head&gt; tag.
+    </p>
+
+    <img class="blog-hero-img" src="/images/metatag1.jpg" alt="meta tag" />
+
+    <section class="blog-section">
+        <p>The &lt;meta&gt; tag can have the following attributes —</p>
+        <ol>
+            <li>
+                <span class="bold-text">http-equiv : </span>If the name attribute is set, <span
+                    class="italic-text">document-level</span> metadata is
+                provided.
+            </li>
+            <li>
+                <span class="bold-text">name : </span>If the http-equiv attribute is set, the meta element is a <span
+                    class="italic-text">pragma
+                    directive</span>, providing information equivalent to what can be given by a similarly-named HTTP
+                header. In
+                simple terms, it indicates the program to perform an action.
+            </li>
+            <li>
+                <span class="bold-text">charset : </span>If the charset attribute is set, the meta element is a <span
+                    class="italic-text">charset
+                    declaration</span>, giving the character encoding in which the document is encoded. Most common
+                charset used is
+                UTF-8 and is understood by all common browsers. Check <a
+                    href="https://www.iana.org/assignments/character-sets/character-sets.xhtml"
+                    class="blog-docs-link">IANA character sets</a>
+                for all available character encodings.
+            </li>
+            <li>
+                <span class="bold-text">content : </span>This attribute contains the <span
+                    class="italic-text">value</span> for the http-equiv or name
+                attribute, depending on which is used.
+            </li>
+            <li>
+                <span class="bold-text">itemprop : </span>This attribute is available for every HTML element and when
+                used with &lt;meta&gt; tag the meta element provides <span class="italic-text">user-defined</span>
+                metadata. An itemprop consists of a
+                name-value pair. Each name-value pair is called a property, and a group of one or more properties forms
+                an item.
+            </li>
+        </ol>
+    </section>
+
+    <section class="blog-section">
+        <p>Few examples - </p>
+        <p>charset : In the below example we set the character encoding to UTF-8.</p>
+        <p class="code-block">
+            &lt;head&gt;<br />
+            &nbsp;&nbsp; &lt;meta charset="UTF-8"&gt;<br />
+            &lt;head/&gt;
+        </p>
+
+        <p>http-equiv : This example will refresh the document very 30 seconds.</p>
+        <p class="code-block">
+            &lt;head&gt;<br />
+            &nbsp;&nbsp; &lt;http-equiv="refresh" content="30"&gt;<br />
+            &lt;head/&gt;
+        </p>
+
+        <p>name : One of the more common use cases for using the name attribute is used to set the viewport. The
+            viewport is the user’s visible area of a web page and varies from one device to another. Setting the
+            viewport is ensures that the website looks good on all devices.</p>
+        <p class="code-block">
+            &lt;head&gt;<br />
+            &nbsp;&nbsp; &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;<br />
+            &lt;head/&gt;
+        </p>
+    </section>
+
+    <hr />
+
+    <h3>The basic Emmet HTML preset looks like this -</h3>
+    <img class="blog-hero-img" src="/images/metatag2.png" alt="meta tag" />
+    <p>As you can see above, two &lt;meta&gt; tags are used. One for defining the charset, and the second defines the
+        viewport. These two can be termed as the more important &lt;meta&gt; tags that should be defined.</p>
+
+    <hr />
+
+    <h3>&lt;meta&gt; tags for SEO</h3>
+    <p>ASEO stands for Search Engine Optimization. SEO is important for your website to be viewed and listed higher in
+        search results so as to get more traffic. SEO can be improved by using
+        <meta> tags in your website.</p>
+
+    <p>Some important
+        <meta> tags for SEO are -</p>
+    <ol>
+        <li>Meta charset</li>
+        <li>Meta title</li>
+        <li>Meta description</li>
+        <li>Meta refresh redirect</li>
+        <li>Meta viewport</li>
+    </ol>
+
+    <hr />
+    <p>Learn more about emmet <a href="https://emmet.io/" class="blog-docs-link">here</a></p>
+    <p>To learn more about the
+        &lt;meta&gt; tag and to check browser compatibility visit the <a
+            href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta" class="blog-docs-link">MDN web
+            docs</a></p>
+    <p>You can find more examples <a href="https://www.w3schools.com/tags/tag_meta.asp" class="blog-docs-link">here</a>
+    </p>
+
+    <footer class="footer">
+        <div class="footer-header">connect with me here</div>
+        <ul class="list-non-bullet">
+            <li>
+                <a href="https://www.github.com/OmkarArora" class="link"><img src="./images/github.svg"
+                        class="social-icon github"> github</a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com/OmkarArora" class="link">
+                    <img src="./images/twitter.svg" class="social-icon"> twitter</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/omkar-arora-0ab08375/" class="link"> <img
+                        src="./images/linkedin.svg" class="social-icon"> linkedin</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
