@@ -1,0 +1,6 @@
+# This site moved to https://omkararora.com. Every page sends visitors there.
+/blogs                        https://omkararora.com/blog  301!
+/blogs.html                   https://omkararora.com/blog  301!
+/the-html-meta-tag-blog       https://omkararora.com/blog  301!
+/the-html-meta-tag-blog.html  https://omkararora.com/blog  301!
+/*                            https://omkararora.com/      301!
