@@ -1,6 +1,9 @@
 # This site moved to https://omkararora.com. Every page sends visitors there.
-/blogs                        https://omkararora.com/blog  301!
-/blogs.html                   https://omkararora.com/blog  301!
-/the-html-meta-tag-blog       https://omkararora.com/blog  301!
-/the-html-meta-tag-blog.html  https://omkararora.com/blog  301!
-/*                            https://omkararora.com/      301!
+/projects                     https://omkararora.com/projects      301!
+/projects.html                https://omkararora.com/projects      301!
+/blogs                        https://omkararora.com/blog          301!
+/blogs.html                   https://omkararora.com/blog          301!
+# The 2020 post isn't carried over; the history page's v1 entry mentions it.
+/the-html-meta-tag-blog       https://omkararora.com/history#v1    301!
+/the-html-meta-tag-blog.html  https://omkararora.com/history#v1    301!
+/*                            https://omkararora.com/              301!
